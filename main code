@@ -49,7 +49,6 @@ def hard_difficulty(random_number):
 
 print("Welcome to the Number Guessing Game!"
       "I'm thinking of a number between 1 and 100")
-print(f"The answer is {random_number}")
 player_choice = input("Choose a difficulty. Type 'easy' or 'hard': ")
 if player_choice == 'easy':
     easy_difficulty(random_number)
